@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NYDC</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav id="menu">
+        <ul>
+            <li><a href="#home" class="home">NYDC</a></li>
+            <li><a href="#video">Видео</a></li>
+            <li><a href="#photo">Фото</a></li>
+            <li><a href="#about_us">Про нас</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <div id="home">
+        <img class="logo" src="Logo.png" alt='logo' id="logo"></img>
+        <div>
+            <h1>NEW YORK DANCE COMPLEX</h1>
+            <h3>Самые настоящие танцы</h3>
+        </div>
+    </div>
+    <div id="video">
+
+    </div>
+
+    <div id="photo">
+        <div class="slider">
+            <div class="item">
+                <img src="slider%20(1).jpg" alt="1 слайд">
+                <div class="slideText">Заголовок Слайда 1</div>
+            </div>
+            <div class="item">
+                <img src="slider%20(2).jpg" alt="2 слайд">
+                <div class="slideText">Заголовок Слайда 2</div>
+            </div>
+            <div class="item">
+                <img src="slider%20(3).JPG" alt="3 слайд">
+                <div class="slideText">Заголовок Слайда 3</div>
+            </div>
+            <a class="prev" onclick="minusSlide()">&#10094</a>
+            <a class="next" onclick="plusSlide()">&#10095</a>
+
+        </div>
+    </div>
+    <div class="slider-dots">
+        <span class="slider-dots-item" onclick="currentSlide(1)"></span>
+        <span class="slider-dots-item" onclick="currentSlide(2)"></span>
+        <span class="slider-dots-item" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    <div id="about_us" class="about">
+        <article> Студия NEW YORK DANCE COMPLEX организовалась в сентябре 2016 года. <br>
+        За это время успела объеденить в себе большое количество заинтересованных и замотивированных людей.<br>
+        В первую очередь, мы даём настоящие и качественные танцы Вашим детям.<br>
+            Тёплая семейная атмосфера нашей студии присутствует на каждом занятии! <br>
+        </article>
+        <div class="founders">
+        <div class="maria">
+        <img class="mariaPhoto" src="maria.png" alt="Мария">
+            <article class="mariaInfo">Мария<br>
+            Тренер и основатель студии</article>
+        </div>
+        <div class="nastya">
+            <img class="nastyaPhoto" src="nastya.png" alt="Мария">
+            <article class="nastyaInfo">Анастасия<br>
+            Тренер и основатель студии</article>
+        </div>
+        </div>
+    </div>
+    <div id="contacts">
+
+    </div>
+</main>
+
+<footer></footer>
+<script src="anchor.js"></script>
+<script src="slider.js"></script>
+<script src="scroll.js"></script>
+</body>
+</html>
